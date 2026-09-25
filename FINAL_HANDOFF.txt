@@ -1,0 +1,14 @@
+FINAL HANDOFF
+
+Canonical package: ACA_FPA_protocol_submission_package.zip
+Reproducibility package: reproducibility_bundle.zip
+Protocol: version 1.0 dated 2026-09-25
+Design: multicentre, 1:1, double-blind, placebo-controlled; target N=800
+Primary endpoint: sustained artefact-controlled relative MAP decline during 0–30 minutes after protamine start
+
+REQUIRED BEFORE FORMAL SUBMISSION OR ENROLMENT
+1. Send the ACA presubmission inquiry and obtain an article-type decision.
+2. Replace all bracketed placeholders and confirm authorship, sponsor, funding, sites, ethics, registry, compensation, recruitment dates, and label-based eligibility thresholds.
+3. Obtain final protocol/SAP signatures and all regulatory approvals.
+
+The local retrospective PDF was generated from the supplied DOCX and is not independently verified as the final publisher PDF. Synthetic validation files are not clinical data.

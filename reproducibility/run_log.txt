@@ -1,0 +1,6 @@
+Run completed UTC: 2026-09-25T02:54:32+00:00
+sample_size_analysis.py: PASS; minimum=792; target=800
+mock_analysis.py: PASS; N=800; converged=True
+synthetic label: SYNTHETIC VALIDATION DATA—NOT CLINICAL DATA
+verify_references.py: PASS; references=22
+generate_protocol_package.py: PASS

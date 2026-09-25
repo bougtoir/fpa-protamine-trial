@@ -1,0 +1,48 @@
+item,description,location,status
+1,Title identifies randomised trial protocol,Manuscript title,Yes
+2,Trial registration,Abstract; Trial status,Pending—must be completed before enrolment
+3,Protocol version,Methods; version history,Yes
+4,Funding,Declarations; title page,Pending sponsor confirmation
+5,Roles and responsibilities,Methods; supplement,Partly—committee names pending
+6a,Background and rationale,Introduction,Yes
+6b,Comparator rationale,Methods—interventions,Yes
+7,Objectives/hypotheses,Methods—objectives,Yes
+8,Trial design,Methods—design,Yes
+9,Study setting,Methods—setting,Pending final sites
+10,Eligibility criteria,Table 2; supplement,Yes
+11a,Intervention description,Methods—interventions,Yes
+11b,Discontinuation/modification,Methods—interventions,Yes
+11c,Adherence strategies,Methods—interventions,Yes
+11d,Concomitant care,Methods—interventions,Yes
+12,Outcomes,Table 3; haemodynamic specification,Yes
+13,Participant timeline,Table 1; Figure 1,Yes
+14,Sample size,Methods; executable report,Yes
+15,Recruitment,Methods,Pending site plan
+16a,Sequence generation,Randomisation specification,Yes
+16b,Concealment mechanism,Randomisation specification,Yes
+16c,Implementation,Randomisation specification,Yes
+17a,Who is blinded,Blinding specification,Yes
+17b,Emergency unblinding,Blinding specification,Yes
+18a,Data collection methods,Methods; data management plan,Yes
+18b,Retention/follow-up,Methods; consent,Yes
+19,Data management,Data management plan,Yes
+20a,Statistical methods,SAP; Methods,Yes
+20b,Additional analyses,SAP,Yes
+20c,Analysis population/missing data,SAP,Yes
+21a,Data monitoring committee,Monitoring plan,Yes; membership pending
+21b,Interim analyses/stopping,Safety review; SAP,Yes
+22,Harms,Safety review; Methods,Yes
+23,Auditing,Monitoring plan,Yes
+24,Research ethics approval,Trial status; declarations,Pending
+25,Protocol amendments,Methods; version history,Yes
+26a,Consent process,Consent core elements,Yes
+26b,Ancillary studies,Consent core elements,Not currently planned
+27,Confidentiality,Data management plan,Yes
+28,Access to data,Data management plan; declarations,Yes
+29,Ancillary/post-trial care,Consent; declarations,Pending compensation policy
+30,Dissemination policy,Declarations,Yes
+31a,Protocol and consent availability,Supplement; trial registry,Planned
+31b,Biological specimens,Methods,No repository planned
+32,Patient/public involvement,Methods,Pending—must be documented
+33,Data sharing and reproducibility,Data management; reproducibility README,Yes
+34,Environmental/equity considerations,Discussion,Addressed at protocol level

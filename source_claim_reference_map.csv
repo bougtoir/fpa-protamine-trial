@@ -1,0 +1,17 @@
+claim,reference_ids,package_locations
+Retrospective association is hypothesis-generating,source2026,source_extraction.md; manuscript Introduction
+"Protamine can cause hypotension, pulmonary hypertension, and allergy",boer2018,Introduction; safety review
+Immediate adverse reactions are clinically recognised,weiler1990,Introduction
+12.9% is a broader planning anchor,kimmel1998events,Sample-size report; Methods
+Protamine haemodynamic burden is associated with mortality,welsby2005,Introduction
+NPH insulin and allergy are risk factors,kimmel1998risk;weiss1989,Eligibility; randomisation strata
+Antihistamine pretreatment has been tested prospectively,suksompong2023,Introduction
+Cyclooxygenase inhibition attenuated reactions in animals,hobbhahn1988,Introduction
+FPA clinical dosing/use,ropion_label;yamashita2006,Intervention; safety review
+Renal safety requires monitoring,liu2024;kdigo2012,Safety outcomes
+Systemic NSAID CABG warnings exist internationally,fda_nsaid_label,Eligibility; safety review
+Residual-heparin-guided protamine is preferred,sts2018;vonk2014,Protamine regimen
+Japanese protamine rate and dose limits,protamine_jp_label,Protamine regimen
+Hypotension definitions are heterogeneous,wesselink2018;sessler2019,Endpoint rationale
+Protocol reporting follows SPIRIT 2025,spirit2025,Reporting
+Future results reporting will follow CONSORT 2025,consort2025,Discussion

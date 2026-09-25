@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+work/
+source/private/
+output/rendered/
+output/rendered_final/
+reproducibility/.venv/

@@ -1,0 +1,17 @@
+item,value,location_or_derivation,status
+records screened,92,Source manuscript methods,Verified
+excluded peripheral vascular,5,Source manuscript methods,Verified
+analysed cardiovascular operations,87,92−5,Verified
+on-pump subgroup,40,Procedure table,Verified
+off-pump CABG,47,Procedure table,Verified
+FPA lead time,≥15 min before protamine,Source methods,Verified
+retrospective protamine,10 mg/1000 U initial heparin over 5 min,Source methods,Historical only; not adopted prospectively
+PSI formula,(MAPpre−MAPpost)/MAPpre,Source methods,Verified
+historical event threshold,PSI >0.20,Source methods,Author-defined; not universally validated
+on-pump DID estimate,4.09 mmHg,Source results,Verified
+DID CI,approximately 0.72–7.46,Source results,Verified
+DID p value,0.02,Source results,Verified
+weighted FPA probability,approximately 0.00,Source results,Verified
+weighted control probability,approximately 0.17,Source results,Verified
+bootstrap risk difference,approximately −0.18,Source results,Verified
+bootstrap CI,approximately −0.40 to −0.03,Source results,Verified

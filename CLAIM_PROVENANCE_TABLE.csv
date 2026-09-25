@@ -1,0 +1,11 @@
+claim,source,output_locations,qualification
+Retrospective study N=87,source/private/jjsca_revision_2nd_cleaned.docx,source_numeric_audit.csv,Private author manuscript
+On-pump N=40,source/private/jjsca_revision_2nd_cleaned.docx,source_numeric_audit.csv,Private author manuscript
+Retrospective effect 4.09 mmHg,source/private/jjsca_revision_2nd_cleaned.docx,Introduction/source extraction,Hypothesis-generating only
+FPA dose and contraindications,source/public/ropion_japan_package_insert.pdf,Intervention/safety,Official Japanese label
+Protamine infusion limits,source/public/protamine_japan_package_insert.pdf,Methods/safety,Official Japanese label
+Residual-heparin protamine guidance,source/public/sts_sca_amsect_anticoagulation_guideline.html,Methods,Professional guideline
+Primary target N,output/analysis_constants.json,Methods/SAP/title page,Executable calculation
+Mock estimates,reproducibility/outputs/mock_analysis_summary.json,Validation only,Synthetic; never clinical
+ACA limits,source/public/aca_information_for_authors_20260925.html,journal_requirements.md,Official live page snapshot
+SPIRIT 2025 items,source/public/spirit_2025_expanded_checklist.pdf,SPIRIT crosswalk,Official reporting resource

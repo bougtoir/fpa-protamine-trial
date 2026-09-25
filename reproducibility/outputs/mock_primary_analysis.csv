@@ -1,0 +1,2 @@
+data_origin,n_total,events_placebo,n_placebo,events_fpa,n_fpa,risk_placebo,risk_fpa,crude_risk_difference,crude_risk_ratio,adjusted_standardised_risk_difference,adjusted_rd_ci_lower,adjusted_rd_ci_upper,primary_model_converged,continuous_treatment_coefficient,continuous_treatment_ci_lower,continuous_treatment_ci_upper
+SYNTHETIC VALIDATION DATA—NOT CLINICAL DATA,800,57,400,29,400,0.1425,0.0725,-0.06999999999999999,0.5087719298245614,-0.0692936236087997,-0.11293478284604562,-0.03223604544334502,True,0.9878407334782087,0.18743793891577054,1.7882435280406468

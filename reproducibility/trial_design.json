@@ -1,0 +1,82 @@
+{
+  "protocol_version": "1.0",
+  "protocol_date": "2026-09-25",
+  "acronym": "IF-U-PLEASE II",
+  "full_title": "Flurbiprofen Axetil Before Protamine to Prevent Clinically Important Hypotension in Adult Non-CABG On-Pump Cardiac Surgery: Protocol for the Multicentre, Randomised, Double-Blind, Placebo-Controlled IF-U-PLEASE II Trial",
+  "short_title": "Flurbiprofen axetil before protamine in on-pump cardiac surgery",
+  "design": "Multicentre, parallel-group, 1:1, superiority, randomised, double-blind, placebo-controlled clinical trial",
+  "population": "Adults undergoing elective non-CABG cardiac surgery with cardiopulmonary bypass, systemic unfractionated heparinisation, and planned protamine reversal",
+  "setting": "Japan; participating sites to be confirmed before registration and submission",
+  "intervention": {
+    "name": "flurbiprofen axetil",
+    "dose_mg": 50,
+    "volume_ml": 5,
+    "administration_minutes": 5,
+    "target_completion_minutes_before_protamine": 15,
+    "window_minutes": 5,
+    "description": "Flurbiprofen axetil 50 mg (5 mL) administered intravenously over 5 minutes, with administration completed 15 ± 5 minutes before the start of protamine."
+  },
+  "comparator": {
+    "name": "placebo",
+    "volume_ml": 5,
+    "description": "0.9% sodium chloride 5 mL administered over 5 minutes on the same schedule, prepared in an opaque syringe and administered through opaque tubing."
+  },
+  "protamine": {
+    "t0_definition": "Start of the first protamine infusion",
+    "dose_method": "Site-standard residual-heparin titration is preferred. If unavailable, the initial dose is calculated from heparin exposure and elapsed time according to the locally approved label; the ratio must remain below 2.6 mg protamine per 100 units heparin.",
+    "infusion_method": "Each 50 mg portion is diluted in 100–200 mL compatible fluid and infused over at least 10 minutes; all dose, rate, route, interruptions, additional doses, ACT values, and deviations are recorded."
+  },
+  "primary_endpoint": {
+    "name": "Clinically important peri-protamine hypotension",
+    "definition": "At least one artefact-free rolling 60-second epoch during 0–30 minutes after t=0 with median MAP at or below 80% of the stabilised pre-protamine baseline MAP.",
+    "baseline": "Median of valid arterial-line MAP observations from 5 minutes to 1 minute before t=0.",
+    "capture": "Arterial pressure waveform sampled at 1 Hz or faster; each qualifying epoch requires at least 45 valid seconds.",
+    "window_minutes": 30
+  },
+  "key_secondary_endpoints": [
+    "Any artefact-free rolling 60-second epoch with MAP below 65 mmHg during 0–30 minutes",
+    "Continuous relative MAP reduction (PSI) from stabilised baseline to nadir during 0–30 minutes",
+    "Time-weighted average MAP below 65 mmHg and area under the 65-mmHg threshold during 0–30 minutes",
+    "New vasopressor bolus, increase in vasoactive infusion, or rescue mechanical support during 0–30 minutes",
+    "Composite of the primary MAP criterion or protocol-defined haemodynamic rescue during 0–30 minutes",
+    "Peak mean pulmonary artery pressure and pulmonary hypertensive reaction where a pulmonary artery catheter is clinically present",
+    "KDIGO acute kidney injury through postoperative day 7 or discharge, whichever occurs first",
+    "Chest-tube drainage, transfusion, reoperation for bleeding, gastrointestinal bleeding, myocardial infarction, stroke, serious adverse events, and death"
+  ],
+  "randomisation": {
+    "ratio": "1:1",
+    "block_sizes": [4, 6, 8],
+    "strata": [
+      "participating site",
+      "preoperative exposure to protamine-containing insulin or documented prior protamine exposure (yes/no)"
+    ]
+  },
+  "sample_size": {
+    "alpha_two_sided": 0.05,
+    "power": 0.9,
+    "planning_control_rate": 0.129,
+    "planning_treatment_rate": 0.06,
+    "non_evaluable_fraction": 0.05,
+    "target_total": 800,
+    "blinded_reestimation_after": 300,
+    "rationale": "The planning control risk is anchored to a published 12.9% rate of adverse events within 30 minutes of protamine after cardiopulmonary bypass, rather than the retrospective study's confounded 17% estimate. The assumed 6% treatment risk is deliberately less extreme than the retrospective zero-event observation."
+  },
+  "analysis": {
+    "population": "Intention-to-treat",
+    "estimand": "Treatment-policy difference in 30-minute risk of clinically important peri-protamine hypotension",
+    "primary_method": "Marginal risk difference from a logistic regression model adjusted for the randomisation stratification variables and baseline MAP, estimated by standardisation with a 95% confidence interval from 2,000 stratified bootstrap samples.",
+    "bootstrap_samples": 2000,
+    "supportive_effects": "Unadjusted risk difference, risk ratio, and odds ratio with 95% confidence intervals",
+    "sparse_event_method": "Firth penalised logistic regression for the adjusted odds ratio if complete or quasi-complete separation occurs",
+    "continuous_method": "ANCOVA or linear regression adjusted for baseline MAP and randomisation strata; robust standard errors are used if residual assumptions are not met"
+  },
+  "registration_status": "[TO BE COMPLETED BEFORE FIRST PARTICIPANT: registry, identifier, and registration date]",
+  "ethics_status": "[TO BE COMPLETED BEFORE SUBMISSION: central and site-specific ethics approvals]",
+  "sponsor": "[TO BE COMPLETED BEFORE SUBMISSION]",
+  "funding": "[TO BE COMPLETED BEFORE SUBMISSION]",
+  "recruitment_dates": "[TO BE COMPLETED BEFORE SUBMISSION]",
+  "participating_sites": "[TO BE COMPLETED BEFORE SUBMISSION]",
+  "corresponding_author": "Tatsuki Onishi",
+  "corresponding_author_affiliation": "Data Science and AI Innovation Research Promotion Center, Shiga University",
+  "corresponding_author_email": "bougtoir@gmail.com"
+}

@@ -1,0 +1,16 @@
+field,value,source,status
+Dose,50 mg,config/trial_design.json,Matched
+Volume,5 mL,config/trial_design.json,Matched
+Infusion duration,5 min,config/trial_design.json,Matched
+Completion timing,15 ± 5 min before protamine,config/trial_design.json,Matched
+t=0,start of first protamine infusion,config/trial_design.json,Matched
+Primary endpoint,"rolling 60-s median MAP ≤80% baseline, 0–30 min",config/trial_design.json,Matched
+Allocation,1:1,config/trial_design.json,Matched
+Target N,800,output/analysis_constants.json,Matched
+Per arm,400,output/analysis_constants.json,Matched
+Power,90%,output/analysis_constants.json,Matched
+Primary analysis,adjusted marginal risk difference; stratified bootstrap CI,config/trial_design.json/SAP.md,Matched
+Abstract words,227,generated manuscript,≤250
+Body words,1407,generated manuscript,≤3000
+Combined tables/figures,5,generated manuscript,≤5
+References,22,references_verified.csv,≤30

@@ -1,0 +1,4 @@
+scenario,status,treatment_log_odds,standard_error,iterations
+zero_events_in_treatment,converged,-2.7252920075706473,1.5042310633168652,10
+single_event_each_arm,converged,1.8691956987092403e-16,1.1910354318636713,9
+no_events_any_arm,converged,2.9027216063859715e-15,2.037306378151075,10

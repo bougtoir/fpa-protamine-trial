@@ -1,0 +1,19 @@
+{
+  "data_origin": "SYNTHETIC VALIDATION DATA\u2014NOT CLINICAL DATA",
+  "n_total": 800,
+  "events_placebo": 57,
+  "n_placebo": 400,
+  "events_fpa": 29,
+  "n_fpa": 400,
+  "risk_placebo": 0.1425,
+  "risk_fpa": 0.0725,
+  "crude_risk_difference": -0.06999999999999999,
+  "crude_risk_ratio": 0.5087719298245614,
+  "adjusted_standardised_risk_difference": -0.0692936236087997,
+  "adjusted_rd_ci_lower": -0.11293478284604562,
+  "adjusted_rd_ci_upper": -0.03223604544334502,
+  "primary_model_converged": true,
+  "continuous_treatment_coefficient": 0.9878407334782087,
+  "continuous_treatment_ci_lower": 0.18743793891577054,
+  "continuous_treatment_ci_upper": 1.7882435280406468
+}
